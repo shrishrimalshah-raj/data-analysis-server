@@ -1,0 +1,1 @@
+export { default as CLIENTRouterPut } from './route';

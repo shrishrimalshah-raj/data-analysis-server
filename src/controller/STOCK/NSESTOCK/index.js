@@ -1,0 +1,1 @@
+export { default as NseStocksRouter } from './route';

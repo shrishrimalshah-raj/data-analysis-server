@@ -1,0 +1,1 @@
+export { default as PRORouterIndex } from './route';

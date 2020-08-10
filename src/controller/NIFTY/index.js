@@ -1,0 +1,1 @@
+export { NIFTYRouterIndex } from './NIFTYIndex';
