@@ -8,6 +8,9 @@ class FNOPCRService extends RootRepository {
   constructor(model) {
     super(model);
   }
+  // https://www.nseindia.com/api/liveEquity-derivatives?index=nifty_bank_fut
+  // https://www.bloombergquint.com/feapi/markets/options/open-interest?type=break-up&expiry=current&limit=200
+
 
   async seedStockData() {
     // delete all records

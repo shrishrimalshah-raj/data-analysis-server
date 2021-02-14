@@ -35,3 +35,13 @@ Step 5: Start app
 **npm start**
 
 * * *
+
+//SEED DATA
+http://localhost:5001/api/fii/index/seed
+http://localhost:5001/api/nifty/index/seed
+
+//BACK-UP DATA
+mongodump --port 27018 -d DataAnalysis -o /home/raj/Desktop/Database-Backup/DataAnalysis/
+
+//RESTORE-DATA
+mongorestore --port 27018 /home/raj/Desktop/Database-Backup/DataAnalysis/
